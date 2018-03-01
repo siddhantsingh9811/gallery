@@ -1,0 +1,359 @@
+body
+{
+	font-family: panther;
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+	transition: all 0.3s ease;
+
+}
+
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14,.box15,.box16
+{
+	height: 200px;
+	width: 300px;
+	background-color: #222;	
+	position: absolute;
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg);
+	box-shadow: 13px 12px 15px 5px rgba(0,0,0,0.3);
+	color:white;
+	cursor: pointer;
+	font-size: 55px;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+.box1
+{
+	background:url('https://wallpapersite.com/images/pages/pic_w/12194.jpg');
+	top: 30px;
+	right:40px;
+	background-size: cover;
+	
+}
+.box2
+{	
+	background: url("https://www.newhdwallpapers.in/wp-content/uploads/2017/08/Black-Panther-4K.jpg");	
+	background-size: cover;
+	top: 140px;
+	right:200px;
+}
+.box3
+{
+	background:url('https://wallpapersite.com/images/pages/pic_w/12019.jpg');
+	background-size: cover;
+	top: 250px;
+	right:360px;
+}
+.box4
+{
+	background:url('https://wallpapersite.com/images/pages/pic_w/12281.jpg');
+	background-size: cover;
+	top: 210px;
+	right: -160px;
+}
+.box5
+{
+	background:url('https://wallpapersite.com/images/pages/pic_w/12198.jpg');
+	background-size: cover;
+	top:320px;
+	right: 0px;
+}
+.box6
+{
+	background:url('https://wallpapersite.com/images/pages/pic_w/8837.jpg');
+	background-size: cover;
+	top: 430px;
+	right: 160px;
+}
+.box7
+{
+	background:url('https://img.cinemablend.com/filter:scale/quill/8/0/1/f/5/1/801f51b2732738fd361e235ff3fab5600a52c5ee.png?mw=600');
+	top: 360px;
+	right: 520px;
+	background-size: cover;
+}
+.box8
+{
+	background:url('https://cdn.ndtv.com/tech/images/gadgets/captain_america_black_panther.jpg');
+	top: 540px;
+	right: 320px;
+	background-size: cover;
+}
+.box9
+{
+	background: url('http://artofvfx.com/wp-content/uploads/2016/05/CA_CivilWar_Trixter_VFX_08.jpg');
+	top: 470px;
+	right: 680px;
+	background-size: cover;
+}
+.box10
+{
+	background:url('http://media.comicbook.com/2016/04/black-panther-civil-war-clip-180925.jpg');
+	top: 650px;
+	right: 480px;
+	background-size: cover;
+}
+.box11
+{
+	background: url('https://cdn.guidingtech.com/imager/media/assets/BP-5_180118_141447_acdb3e4bb37d0e3bcc26c97591d3dd6b.jpg');
+	top: 580px;
+	right: 840px;
+	background-size: cover;
+}
+.box12
+{
+	background: url('http://hdqwalls.com/wallpapers/black-panther-fanart-4k-u2.jpg');
+	top: 760px;
+	right: 640px;
+	background-size: cover;
+}
+.box13
+{
+	background: url('http://hdqwalls.com/wallpapers/black-panther-fan-made-ce.jpg');
+	top: 690px;
+	right: 1000px;
+	background-size: cover;
+}
+.box14
+{
+	background: url('http://hdqwalls.com/wallpapers/black-panther-marvel-contest-of-champions-2e.jpg');
+	top: 870px;
+	right: 800px;
+	background-size: cover;
+}
+.box15
+{
+	background: url('http://hdqwalls.com/wallpapers/black-panther-and-erik-killmonger-marvel-contest-of-champions-dv.jpg');
+	top: 800px;
+	right: 1160px;
+	background-size: cover;
+}
+.box16
+{
+	background: url('http://hdqwalls.com/wallpapers/black-panther-digital-artwork-nd.jpg');
+	top: 980px;
+	right: 960px;
+	background-size: cover;
+}
+
+.box1:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box2:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box3:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box4:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box5:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box6:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box7:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box8:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box9:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box10:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box11:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box12:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box13:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box14:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box15:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+.box16:hover
+{
+	box-shadow: 13px 12px 15px -5px rgba(0,0,0,0.5);
+	transition: 0.1s ease;	
+	transform: rotateX(40deg) rotateY(0deg) rotateZ(50deg) translate(-1%,-1%);
+}
+
+@font-face {
+	font-family: panther;
+	src: url(panther.ttf);
+}
+.whole
+{
+	position: absolute;
+	height: 175vh;
+	width: 98vw;
+	overflow: hidden;
+	z-index: 1000;
+}
+.nav h1
+{
+	font-size: 60px;
+	color:	#D5AD6D;
+	
+	background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+	radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+.t1
+{
+	top: 20%;
+	left: 5%;
+	position: absolute;
+	height: 800px;
+	width: 800px;
+	background-color: #222;
+	clip-path: polygon(100% 0, 0 0, 0 65%);
+	color: white;
+	font-size: 27.5px;
+	padding-left: 10px;
+}
+.t2
+{
+	top: 47%;
+	right: 5%;
+	position: absolute;
+	height: 800px;
+	width: 800px;
+	background-color: #222;
+	clip-path: polygon(100% 35%, 100% 100%, 0 100%);
+}
+
+.boxes
+{
+	top: -4%;
+	right: -5%;
+	position: absolute;
+	height: 150vh;
+	width: 600px;
+	background-color: transparent;
+}
+.cross
+{
+	clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	position: absolute;
+	right: 20px;
+	z-index: 10000;
+	top: 90px;
+	cursor: pointer;
+	visibility: hidden;
+}
+.cross:hover
+{
+	transition: 0.5s;
+	transform: scale(1.1);
+}
+h2
+{
+	font-size: 35px;
+	color:	#D5AD6D; 
+	background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+	radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 0;
+	margin: 0;
+	transform: translateY(10px);
+}
+.t2 h1
+{
+	margin-top: 600px; 
+	margin-left: 400px;
+	color:	#D5AD6D; 
+	background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+	radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 60px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+	width: 5px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+	radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); 
+}
+
+
+
+
+
+
+
+
+
+
